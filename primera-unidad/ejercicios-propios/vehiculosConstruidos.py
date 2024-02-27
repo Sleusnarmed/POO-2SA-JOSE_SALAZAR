@@ -14,9 +14,8 @@ class Vehiculo:
         print(f"La capacidad del tanque: {self.capcacidad_tanque}")
         print(f"Los kilometros que recorre con 5lts: {self.km_recorridos}")
         print(f"El rendimiento: {self.rendimiento}")
-        
-vehiculos_a_construir = int(input("Cuantos vehiculos vas a construir?"))
 
+vehiculos_a_construir = int(input("Cuantos vehiculos vas a construir?"))
 
 def creacion_vehiculos(vehiculos_a_construir):
     vehiculos_construidos = []
